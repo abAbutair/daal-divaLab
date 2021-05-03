@@ -1,0 +1,49 @@
+/////////////////////////////// page title //////////////////////////////////
+.page-title{
+    padding: 20px 15px;
+    color: $mainClr;
+    background-color: $dark;
+    text-align: center;
+    text-transform: uppercase;
+    p{
+        font-size: $headingSize;
+        margin-bottom: 0;
+    }
+}
+.breadcrumb{
+    margin-bottom: 0;
+    justify-content: center;
+    background-color: transparent;
+    li{
+        &.active, a{
+            color: $fontColor;
+        }
+        &:not(:first-child){
+            &:before{
+                content: $angle-double;
+                color: $fontColor;
+                @extend %awesome900;
+            }
+        }
+    }
+}
+
+
+/////////////////////////////// main content //////////////////////////////////
+main{
+    padding: 50px 0;
+    .about-list{
+        display: flex;
+        flex-wrap: wrap;
+        li{
+            margin-bottom: 20px;
+            flex: 1 0 25%;
+            img{
+                max-height: 50px;
+            }
+            span{
+                text-transform: uppercase;
+            }
+        }
+    }
+}

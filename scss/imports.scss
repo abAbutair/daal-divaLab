@@ -1,0 +1,55 @@
+@import "_variables";
+@import "_mixins";
+@import "_partials";
+@import "_grid";
+@import "_general";
+@import "_home";
+@import "_header-footer";
+@import "_internals";
+@import "_responsive";
+
+
+///////////////////////////////////////////////
+
+/* english fonts */
+// section heading
+//body & titles
+
+@font-face {
+    font-family: 'ibm-regular';
+    src: url('../fonts/IBMPlexSans-Regular.otf');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ibm-medium';
+    src: url('../fonts/IBMPlexSans-Medium.otf');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ibm-semiBold';
+    src: url('../fonts/IBMPlexSans-SemiBold.otf');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ibm-bold';
+    src: url('../fonts/IBMPlexSans-Bold.otf');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ibm-light';
+    src: url('../fonts/IBMPlexSans-Light.otf');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ibm-thin';
+    src: url('../fonts/IBMPlexSans-Thin.otf');
+    font-style: normal;
+}
+
+/* Arabic fonts */
+@font-face {
+    font-family: 'DroidKufi';
+    src: url('../fonts/DroidKufi-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}

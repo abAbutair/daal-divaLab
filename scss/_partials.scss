@@ -1,0 +1,39 @@
+.underline {
+    text-decoration: underline;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+%awesome900{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+%covered_bg {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+%right_bg {
+    position: relative;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: $right;
+}
+%top_bg {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+
+
+
+
+
+
