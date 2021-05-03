@@ -1,2 +1,4 @@
 **/.idea/
-**/.sass_cache/
+**/.sass-cache/
+/node_modules
+/scss
